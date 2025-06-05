@@ -1,12 +1,64 @@
-# React + Vite
+# 📚 Sistema de Gestión de Biblioteca
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con **React** que permite gestionar **libros**, **revistas** y otros **elementos** mediante una API REST construida en el backend (no incluido en este repositorio). La app permite crear, buscar, editar y eliminar publicaciones.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ ReactJS
+- 🧪 Axios
+- 🧾 React Router DOM
+- 🎨 Bootstrap 5 (o tu framework CSS preferido)
+- 🗄️ API REST en `localhost:8080`
+- 📚 El Backend está basado en [este proyecto](https://github.com/oscar-dev91/BibliotecaRestAndWeb-SpringBoot).
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Libros
+
+- ✅ Listar libros
+- 🔍 Buscar libros por múltiples criterios
+- ➕ Crear nuevos libros
+- ✏️ Editar libros existentes
+- 🗑️ Eliminar libros
+
+### Revistas
+
+- ✅ Listar revistas
+- 🔍 Buscar por título, autor o categoría
+- ➕ Crear revistas
+- ✏️ Editar revistas
+- 🗑️ Eliminar revistas
+
+### DVDs
+
+- ✅ Listar DVDs
+- 🔍 Buscar por título, director o género
+- ➕ Crear DVDs
+- ✏️ Editar DVDs
+- 🗑️ Eliminar DVDs
+
+### Elementos
+
+- ✅ Mostrar todos los elementos o por tipo (`libro`, `revista`, `dvd`.)
+- 🔍 Búsqueda por título
+
+## 📦 Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/BibliotecaReactFrontend.git
+cd gestor-publicaciones
+```
+2. Instala las dependencias:
+```bash
+npm install
+```
+3. Inicia el servidor de desarrollo:
+```bash
+npm start
+```
+4. Asegúrate de tener el backend corriendo en http://localhost:8080
+
+
+**Hecho con ❤️ por Oscar Palomino** 
