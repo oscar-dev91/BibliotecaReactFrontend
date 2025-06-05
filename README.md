@@ -48,7 +48,7 @@ Este proyecto es una aplicación web desarrollada con **React** que permite gest
 
 ```bash
 git clone https://github.com/tu-usuario/BibliotecaReactFrontend.git
-cd gestor-publicaciones
+cd BibliotecaReactFrontend
 ```
 2. Instala las dependencias:
 ```bash
